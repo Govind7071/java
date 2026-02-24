@@ -9,7 +9,7 @@ class Parent
 
 class Child extends Parent
 {
-    Child()     //this is child class constructor
+    void child()     //this is child class constructor
     {
         System.out.println("Child class method");
     }
@@ -20,6 +20,7 @@ class P2
     public static void  main (String[] args)
     {
         Child C = new Child();
+        C.child();
         
         
     }
